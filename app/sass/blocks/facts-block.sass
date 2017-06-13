@@ -1,0 +1,77 @@
+@import "../responsive"
+
+.fact
+    position: absolute
+    background: rgba(255, 255, 255, .85)
+    color: #151213
+    box-shadow: 0px -4px 39px 9px rgba(255,255,255,0.5)
+    z-index: 10
+    cursor: default
+
+    &__head
+        padding: 15px 30px
+
+    &__page
+        font-family: $NespressoBold
+        padding: 0
+
+        &__count
+            font-size: 20px
+        &__all-pages
+            font-size: 14px
+
+    &__title
+        text-transform: uppercase
+        font-size: 16px
+        font-family: $NespressoBold
+        padding: 0
+
+    &__text
+        padding: 0 20px 10px 30px
+        font-size: 13px
+        line-height: 18px
+        font-family: $GothaRegular
+
+
+    &__first
+        bottom: 50%
+        left: 50%
+        width: 504px
+
+        &__descr
+            display: inline-block
+            float: left
+            width: 315px
+
+        &__pic
+            display: inline-block
+            float: left
+            width: 189px
+
+    &__second
+        bottom: 50%
+        left: 50%
+        width: 265px
+
+    &__third
+        bottom: 50%
+        left: 50%
+        width: 609px
+
+        &__descr
+            display: inline-block
+            float: left
+            width: 344px
+
+            p
+                line-height: 1.6em
+
+    &__fourth
+        top: 50%
+        right: 50%
+        width: 265px
+
+    &__fifth
+        top: 50%
+        right: 50%
+

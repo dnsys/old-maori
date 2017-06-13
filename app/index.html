@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Maori</title>
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1024">
+    <!-- Template Basic Images Start -->
+    <meta property="og:image" content="path/to/image.jpg">
+    <link rel="shortcut icon" href="img/favicon/favicon-maori.ico" type="image/x-icon">
+    <!--link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png"-->
+    <!-- Template Basic Images End -->
+
+    <!-- Custom Browsers Color Start -->
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#000">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#000">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+    <!-- Custom Browsers Color End -->
+
+</head>
+
+<body>
+<style>
+    .preloader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: #161619;
+        z-index: 15;
+        background-image: url(img/main-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center
+    }
+
+    .preloader__logo {
+        visibility: hidden;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 75%;
+        transform: translate(-50%, -50%);
+    }
+</style>
+<script>
+    window.addEventListener('load', function () {
+        var $logo = $('.preloader__logo');
+        curr = 0;
+        var logoProgress = setInterval(function () {
+            if (curr == $logo.length) {
+                setTimeout(function () {
+                    $('#preloader').fadeOut(1000);
+                }, 50);
+                clearInterval(logoProgress);
+            } else {
+                if (curr > 0) {
+                    $logo.eq(curr - 1).css('visibility', '');
+                }
+                $logo.eq(curr).css('visibility', 'visible');
+                curr++;
+            }
+        }, 60);
+    });
+</script>
+
+<div id="preloader" class="preloader">
+    <img class="preloader__logo" src="img/Maory_Logo/Maory_Logo_00017.png" alt="">
+    <img class="preloader__logo" src="img/Maory_Logo/Maory_Logo_00018.png" alt="">
+    <img class="preloader__logo" src="img/Maory_Logo/Maory_Logo_00019.png" alt="">
+    <img class="preloader__logo" src="img/Maory_Logo/Maory_Logo_00020.png" alt="">
+    <img class="preloader__logo" src="img/Maory_Logo/Maory_Logo_00021.png" alt="">
+    <img class="preloader__logo" src="img/Maory_Logo/Maory_Logo_00022.png" alt="">
+    <img class="preloader__logo" src="img/Maory_Logo/Maory_Logo_00023.png" alt="">
+    <img class="preloader__logo" src="img/Maory_Logo/Maory_Logo_00024.png" alt="">
+    <img class="preloader__logo" src="img/Maory_Logo/Maory_Logo_00025.png" alt="">
+    <img class="preloader__logo" src="img/Maory_Logo/Maory_Logo_00026.png" alt="">
+    <img class="preloader__logo" src="img/Maory_Logo/Maory_Logo_00027.png" alt="">
+    <img class="preloader__logo" src="img/Maory_Logo/Maory_Logo_00028.png" alt="">
+    <img class="preloader__logo" src="img/Maory_Logo/Maory_Logo_00029.png" alt="">
+    <img class="preloader__logo" src="img/Maory_Logo/Maory_Logo_00030.png" alt="">
+    <img class="preloader__logo" src="img/Maory_Logo/Maory_Logo_00031.png" alt="">
+    <img class="preloader__logo" src="img/Maory_Logo/Maory_Logo_00032.png" alt="">
+    <img class="preloader__logo" src="img/Maory_Logo/Maory_Logo_00033.png" alt="">
+    <img class="preloader__logo" src="img/Maory_Logo/Maory_Logo_00034.png" alt="">
+    <img class="preloader__logo" src="img/Maory_Logo/Maory_Logo_00035.png" alt="">
+    <img class="preloader__logo" src="img/Maory_Logo/Maory_Logo_00036.png" alt="">
+    <img class="preloader__logo" src="img/Maory_Logo/Maory_Logo_00037.png" alt="">
+    <img class="preloader__logo" src="img/Maory_Logo/Maory_Logo_00038.png" alt="">
+    <img class="preloader__logo" src="img/Maory_Logo/Maory_Logo_00039.png" alt="">
+    <img class="preloader__logo" src="img/Maory_Logo/Maory_Logo_00040.png" alt="">
+    <img class="preloader__logo" src="img/Maory_Logo/Maory_Logo_00041.png" alt="">
+    <img class="preloader__logo" src="img/Maory_Logo/Maory_Logo_00042.png" alt="">
+    <img class="preloader__logo" src="img/Maory_Logo/Maory_Logo_00043.png" alt="">
+    <img class="preloader__logo" src="img/Maory_Logo/Maory_Logo_00044.png" alt="">
+    <img class="preloader__logo" src="img/Maory_Logo/Maory_Logo_00045.png" alt="">
+    <img class="preloader__logo" src="img/Maory_Logo/Maory_Logo_00046.png" alt="">
+    <img class="preloader__logo" src="img/Maory_Logo/Maory_Logo_00047.png" alt="">
+    <img class="preloader__logo" src="img/Maory_Logo/Maory_Logo_00048.png" alt="">
+    <img class="preloader__logo" src="img/Maory_Logo/Maory_Logo_00049.png" alt="">
+    <img class="preloader__logo" src="img/Maory_Logo/Maory_Logo_00050.png" alt="">
+    <img class="preloader__logo" src="img/Maory_Logo/Maory_Logo_00051.png" alt="">
+    <img class="preloader__logo" src="img/Maory_Logo/Maory_Logo_00052.png" alt="">
+    <img class="preloader__logo" src="img/Maory_Logo/Maory_Logo_00053.png" alt="">
+    <img class="preloader__logo" src="img/Maory_Logo/Maory_Logo_00054.png" alt="">
+    <img class="preloader__logo" src="img/Maory_Logo/Maory_Logo_00055.png" alt="">
+    <img class="preloader__logo" src="img/Maory_Logo/Maory_Logo_00056.png" alt="">
+    <img class="preloader__logo" src="img/Maory_Logo/Maory_Logo_00057.png" alt="">
+</div>
+
+<!-- main menu -->
+<div id="main-menu" class="main-menu main-menu--fixed-top" style="display: none;">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="main-menu__container">
+                <div class="main-menu__logo pull-left">
+                    <a href="#main">
+                        <img src="img/maori-logo.svg" alt=""/>
+                    </a>
+                </div>
+                <div class="main-menu__nav pull-right">
+                    <ul class="main-menu__pill">
+                        <li><a href="#conception">Концепция</a></li>
+                        <li><a href="#interior">Интерьер</a></li>
+                        <!--li><a href="#">Меню</a></li-->
+                        <li><a href="#contacts">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><!-- / main menu -->
+
+<!-- nav overlay -->
+<div id="main-nav" class="swipe-nav">
+    <div class="maori-intro">
+        <div class="top-circle">
+            <div class="circle circle--not-croshair main" style="border-radius: 50px; height: 50px; width: 50px;"></div>
+            <div class="circle circle--not-croshair pulsate"></div>
+        </div>
+        <div class="connecting-line"></div>
+        <div class="target-circle"></div>
+        <div class="description">
+            НАЖМИТЕ И ПОТЯНИТЕ КРУГ ВНИЗ <br/>
+            ЧТОБЫ ПОГРУЗИТЬСЯ В МИР ПЛЕМЕНИ МАОРИ
+        </div>
+    </div>
+</div><!-- / nav overlay -->
+
+<!-- full page -->
+<div id="fullpage">
+    <div class="section section--main-screen" id="main" data-anchor="main">
+        <div class="section--main-screen__logo">
+            <img src="img/Maory_Logo/Maory_Logo_00057.png" alt="">
+        </div>
+    </div>
+    <div class="section fp-auto-height" data-anchor="skip1">
+        <img src="img/separate1.jpg" style="width: 100%;" alt="">
+    </div>
+    <div class="section section--conceptionbg conception" data-anchor="conception">
+        <div class="container-fluid">
+            <div id="concept-descr" class="conception-desrc">
+                <p class="conception-desrc__h1">Концепция</p>
+                <hr class="conception-desrc__devider" align="right">
+                <div class="conception-desrc__text">
+                    <p>
+                        <span>Old Maori — новозеландский паб в самом</span><br/>
+                        <span>центре города Жуковского. Здесь, как</span><br/>
+                        <span>на татуировках воинственного народа</span><br/>
+                        <span>маори, тесно сплелись — спортивный дух,</span><br/>
+                        <span>холодное пиво и отменная еда.</span>
+                    </p>
+                    <p>
+                        <span>А что еще нужно настоящему герою?</span><br/>
+                        <span>Ждем всех, в ком горяча кровь</span><br/>
+                        <span>и кому не дают уснуть</span><br/>
+                        <span>боевые барабаны!</span>
+                    </p>
+                </div>
+            </div>
+            <div class="circle" id="first-fact">
+                <div class="circle__outer"></div>
+                <div class="circle__pulsate"></div>
+                <div class="circle__in"></div>
+                <div class="fact fact__first" style="display: none;">
+                    <div class="fact__first__descr">
+                        <div class="fact__head">
+                            <div class="fact__page">
+                                <span class="fact__page__count">1</span><span class="fact__page__all-pages">/5</span>
+                            </div>
+                            <div style="border-top: 1px solid #000; width: 173px;"></div>
+                            <div class="fact__title">
+                                Интересный факт
+                            </div>
+                        </div>
+                        <div class="fact__text">
+                            <p>
+                                Дословный перевод с&nbsp;&laquo;māori&raquo; (язык маори) означает &laquo;обычные&raquo;
+                                (&laquo;естественные&raquo;, &laquo;нормальные&raquo;). Именно это понятие
+                                использовалось древним народом для отличия людей от&nbsp;божества и&nbsp;духа. Как
+                                самоназвание народа оно стало общеупотребительным только после прибытия в&nbsp;Новую
+                                Зеландию в&nbsp;1830&#8209;х годах европейцев-колонизаторов.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="fact__first__pic">
+                        <img src="img/facts/first-fact.jpg" alt=""/>
+                    </div>
+                </div>
+            </div>
+            <div class="circle" id="second-fact">
+                <div class="circle__outer"></div>
+                <div class="circle__pulsate"></div>
+                <div class="circle__in"></div>
+                <div class="fact fact__second" style="display: none;">
+                    <div class="fact__head">
+                        <div class="fact__page">
+                            <span class="fact__page__count">2</span><span class="fact__page__all-pages">/5</span>
+                        </div>
+                        <div style="border-top: 1px solid #000; width: 173px;"></div>
+                        <div class="fact__title">
+                            Интересный факт
+                        </div>
+                    </div>
+                    <div class="fact__text">
+                        <p>
+                            Хонги&nbsp;&mdash; традиционное приветствие Маори. Выражается в&nbsp;прикосновении носами
+                            при встрече. Трение носами представляет собой символический акт обращения Кха (дыхание
+                            жизни), которое восходит непосредственно к&nbsp;богам. Прошедший этот обряд уже не&nbsp;считается
+                            Манухири (посетителем), а&nbsp;становится Тангата Венуа, то&nbsp;есть &laquo;человеком земли&raquo;.
+                        </p>
+                    </div>
+                    <div class="fact__pic">
+                        <img src="img/facts/second-fact.jpg" alt=""/>
+                    </div>
+                </div>
+            </div>
+            <div class="circle" id="third-fact">
+                <div class="circle__outer"></div>
+                <div class="circle__pulsate"></div>
+                <div class="circle__in"></div>
+                <div class="fact fact__third" style="display: none;">
+                    <div class="fact__third__descr">
+                        <div class="fact__head">
+                            <div class="fact__page">
+                                <span class="fact__page__count">3</span><span class="fact__page__all-pages">/5</span>
+                            </div>
+                            <div style="border-top: 1px solid #000; width: 173px;"></div>
+                            <div class="fact__title">
+                                Интересный факт
+                            </div>
+                        </div>
+                        <div class="fact__text">
+                            <p>
+                                Очень большое впечатления в&nbsp;давние времена на&nbsp;врагов, а&nbsp;сегодня&nbsp;&mdash;
+                                на&nbsp;путешественников производит Haka&nbsp;&mdash; один из&nbsp;видов древних танцев,
+                                исполняемых маорийскими воинами традиционно на&nbsp;поле боя. Ожесточенные с&nbsp;первого
+                                взгляда движения (тиснения ногами, выступы и&nbsp;ритмические пощечены) сопровождаемые
+                                громкими выкриками-песней призваны символизировать гордость племени, силу и&nbsp;его
+                                единство.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="fact__first__pic">
+                        <img src="img/facts/third-fact.jpg" alt=""/>
+                    </div>
+                </div>
+            </div>
+            <div class="circle" id="fourth-fact">
+                <div class="circle__outer"></div>
+                <div class="circle__pulsate"></div>
+                <div class="circle__in"></div>
+                <div class="fact fact__fourth" style="display: none;">
+                    <div class="fact__head">
+                        <div class="fact__page">
+                            <span class="fact__page__count">4</span><span class="fact__page__all-pages">/5</span>
+                        </div>
+                        <div style="border-top: 1px solid #000; width: 173px;"></div>
+                        <div class="fact__title">
+                            Интересный факт
+                        </div>
+                    </div>
+                    <div class="fact__text">
+                        <p>
+                            Археологические находки и&nbsp;их&nbsp;генетический анализ дают основание предполагать, что
+                            в&nbsp;Новую Зеландию эти люди прибыли и&nbsp;заселили более 1000 лет назад с&nbsp;островов
+                            Восточной Полинези (откуда они родом) на&nbsp;каноэ Waka, чем заслужили в&nbsp;истории славу
+                            смелых и находчивых мореплавателей.
+                        </p>
+                    </div>
+                    <div class="fact__pic">
+                        <img src="img/facts/fourth-fact.jpg" alt=""/>
+                    </div>
+                </div>
+            </div>
+            <div class="circle" id="fifth-fact">
+                <div class="circle__outer"></div>
+                <div class="circle__pulsate"></div>
+                <div class="circle__in"></div>
+                <div class="fact fact__fifth" style="display: none;">
+                    <div class="fact__head">
+                        <div class="fact__page">
+                            <span class="fact__page__count">5</span><span class="fact__page__all-pages">/5</span>
+                        </div>
+                        <div style="border-top: 1px solid #000; width: 173px;"></div>
+                        <div class="fact__title">
+                            Интересный факт
+                        </div>
+                    </div>
+                    <div class="fact__text">
+                        <p>
+                            Неповторимым и&nbsp;зрелищным атрибутом культуры является Ta&nbsp;Моkо&nbsp;&mdash;
+                            искусство татуировки и уникальное выражение культурной идентичности маори. Каждая Та&nbsp;Моkо
+                            отражает родословную человека и&nbsp;личную историю. В&nbsp;прежние времена это был признак
+                            социального ранга, знаний, навыков и&nbsp;права вступать в&nbsp;брак.
+                        </p>
+                    </div>
+                    <div class="fact__pic">
+                        <img src="img/facts/fifth-fact.jpg" alt=""/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section__swipe">
+            <div class="section__swipe-inner">
+                <div class="section__swipe-line"></div>
+                <span class="section__swipe-text">Листать дальше</span>
+            </div>
+        </div>
+    </div>
+    <div class="section fp-auto-height" data-anchor="skip2">
+        <img src="img/separate2.jpg" style="width: 100%;" alt="">
+    </div>
+    <div class="section section--slider" data-anchor="interior">
+        <div id="interior-slider" style="height: 100%;">
+            <div class="slider-paginate">
+            </div>
+            <div class="slider-nav">
+                <div class="slider-nav__prev" id="slider-prev"></div>
+                <div class="slider-nav__next" id="slider-next"></div>
+            </div>
+
+            <div id="swipe-to-more" class="section__swipe">
+                <div class="section__swipe-inner">
+                    <div class="section__swipe-line"></div>
+                    <span class="section__swipe-text">Листать дальше</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><!-- / full page -->
+
+<!-- footer -->
+<div class="footer">
+        <span class="footer-tab">
+            <div class="footer__mask">
+                <img src="img/mask.png"/>
+            </div>
+        </span>
+    <div class="footer__info">
+        <div class="footer__info-wrapper">
+            <div class="footer__info-inner">
+                <div class="footer__age-control">
+                    18+
+                </div>
+
+                <div class="footer__address">
+                    <span>Г. ЖУКОВСКИЙ</span>
+                    <span>УЛ. ГАГАРИНА 36/1</span>
+                    <a href="#map">показать на карте</a>
+                </div>
+
+                <div class="footer__contacts">
+                    <a href="tel:+74954180000">+7 495 418 0000</a>
+                    <a href="tel:+7(916)6799879">+7 (916) 679 9879</a>
+                    <a href="mailto:info@oldmaori.ru">info@oldmaori.ru</a>
+
+                    <div class="footer__social">
+                        <div class="footer__social__icon">
+                            <a href="https://www.facebook.com/Old-Maori-New-Zealand-Pub-328902527473284/"
+                               target="_blank"><img src="img/social/fb.png" alt=""/></a>
+                        </div>
+                        <div class="footer__social__icon">
+                            <a href="http://instagram.com/oldmaoripub" target="_blank"><img src="img/social/insta.png"
+                                                                                            alt=""/></a>
+                        </div>
+                        <!--div class="footer__social__icon">
+                            <a href="#" target="_blank"><img src="img/social/vk.png" alt=""/></a>
+                        </div-->
+                    </div>
+                </div>
+
+                <div class="footer__close">
+                    <img src="img/close.png"/>
+                </div>
+
+                <div class="clearfix"></div>
+                <div class="footer__developer">
+                    Брендинг и дизайн <a href="http://www.fromstudio.com/" target="_blank">FROMstudio</a>. Разработано
+                    <a href="http://rocketstation.ru/" target="_blank">Rocket Station.</a>
+                </div>
+                <div class="footer__copyright">
+                    <p>&copy; 2016 Old Maori. Использование материалов Old Maori разрешено только с предварительного
+                        согласия прав обладатилей. Все права на картинки и посты принадлежат их авторам</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><!-- / footer -->
+
+<div id="map" class="map">
+    <!--div class="map__img-wrap">
+        <img class="map__img" src="img/map-frame.png" alt="карта">
+        <div class="map__text">
+            г. Жуковский, ул. Гагарина 36
+        </div>
+    </div-->
+    <div class="map__close">
+        <img src="img/close-dark.png">
+    </div>
+</div>
+
+<link rel="stylesheet" href="css/fonts.min.css" type="text/css">
+<link rel="stylesheet" href="css/libs.min.css" type="text/css">
+<link rel="stylesheet" href="css/main.min.css" type="text/css">
+
+<script src="js/libs.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js" defer></script>
+<script src="js/script.js" defer></script>
+</body>
+
+</html>

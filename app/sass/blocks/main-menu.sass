@@ -1,0 +1,47 @@
+.main-menu
+    min-width: 1024px
+    padding-top: 25px
+    &--fixed-top
+        position: fixed
+        top: 0
+        left: 0
+        right: 0
+        padding-left: 10%
+        padding-right: 10%
+        z-index: 10
+    &__container
+        border: 2px solid #fff
+        background: rgba(0, 0, 0, .4)
+        &:before, &:after
+            content: ""
+            display: table
+        &:after
+            clear: both
+    &__logo
+        padding: 14px
+        img
+            width: 230px
+        
+    &__nav
+    
+    &__pill
+        margin: 0
+    
+    &__pill li
+        display: inline-block
+
+    &__pill a
+        display: block
+        color: #fff
+        text-transform: uppercase
+        font-size: 14px
+        font-family: $NespressoBold
+        padding: 19px
+        cursor: pointer
+
+    &__pill a:hover, .active
+        text-decoration: none
+        opacity: .3
+
+    &__pill a:focus
+        text-decoration: none

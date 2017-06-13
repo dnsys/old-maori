@@ -1,0 +1,107 @@
+.circle
+  position: absolute
+  width: 47px
+  height: 47px
+  &:before,&:after
+    content: ""
+    background: #fff
+    position: absolute
+    opacity: 0
+    transition: all 0.3s ease
+  &:before
+    top: 0
+    left: 50%
+    margin-left: -1px
+    width: 2px
+    height: 100%
+  &:after
+    top: 50%
+    left: 0
+    margin-top: -1px
+    width: 100%
+    height: 2px
+  &.js-active
+    &:before,&:after
+      opacity: 1
+
+  &--not-croshair
+    &:after,&:before
+      display: none
+
+  &__pulsate
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+    border: 3px solid #fff
+    width: 14px
+    height: 14px
+    border-radius: 14px
+
+  &__outer
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+    border: 0px solid #fff
+    width: 50px
+    height: 50px
+    border-radius: 50px
+    z-index: 2
+    transition: all 0.5s linear
+  &:hover
+    cursor: pointer
+
+  &:hover &__in
+    cursor: pointer
+
+  &__active
+    width: 14px
+    height: 14px
+
+  &__in
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+    background-color: #fff
+    border: 2px solid #fff
+    height: 14px
+    width: 14px
+    border-radius: 50%
+    z-index: 1
+    //transition: all 0.5s linear
+
+    &__active
+      background: transparent
+
+  &:hover &__in
+    background: #caf719
+    border-color: #caf719
+    //box-shadow: 0 0 15px 5px #caf719
+  &:hover &__in__active
+      background: transparent
+      border-color: #fff
+
+#first-fact
+  left: 11%
+  top: 61%
+
+#second-fact
+  left: 24%
+  top: 88%
+
+#third-fact
+  left: 35%
+  top: 74%
+
+#fourth-fact
+  left: 36%
+  top: 14%
+
+#fifth-fact
+  left: 78%
+  top: 15%
+
+
+

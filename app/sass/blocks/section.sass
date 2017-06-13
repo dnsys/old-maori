@@ -1,0 +1,81 @@
+@import "../responsive"
+
+.section
+    position: relative
+    height: 100% !important
+
+    &--main-screen
+        position: relative
+        z-index: 11
+        height: 100vh
+        background-image: url(../img/main-bg.jpg)
+        background-repeat: no-repeat
+        background-size: cover
+        background-position: center center
+
+        &__logo
+            position: absolute
+            width: 100%
+            top: 50%
+            left: 50%
+            transform: translate(-50%,-50%)
+            text-align: center
+            img
+                width: 75%
+
+    &--conceptionbg
+        background: url(../img/conception-bg.jpg)
+        background-size: cover
+        background-position: right bottom
+        background-repeat: no-repeat
+    &--separate1
+        background: url(../img/separate1.jpg)
+        background-size: cover
+        background-position: top center
+        background-repeat: no-repeat
+
+    &--slider
+        position: relative
+        /*&:before
+            content: ''
+            position: absolute
+            top: 0
+            left: 0
+            bottom: 0
+            right: 0
+            background: rgba(0,0,0,.4)
+            z-index: 10*/
+
+    &__swipe
+        display: none
+        position: absolute
+        bottom: 0
+        left: 50%
+        height: 50px
+        cursor: pointer
+
+    &__swipe-inner
+        position: relative
+        top: 0
+        height: 100%
+        transition: all 0.3s ease
+
+    &__swipe:hover &__swipe-inner
+        top: -10px
+
+    &__swipe-line
+        display: none
+        position: absolute
+        left: 0
+        bottom: 0
+        width: 1px
+        height: 100%
+        background: #fff
+
+    &__swipe-text
+        display: block
+        color: #fff
+        text-transform: uppercase
+        padding-top: 15px
+        padding-bottom: 15px
+        padding-left: 20px

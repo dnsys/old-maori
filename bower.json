@@ -1,0 +1,27 @@
+{
+  "name": "ielt",
+  "description": "ielt",
+  "main": "index.js",
+  "authors": [
+    "SvyatoslavPozhydaev <svyatreal@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/libs/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "vegas": "^2.3.1"
+  },
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "fullpage.js": "^2.8.8"
+  }
+}

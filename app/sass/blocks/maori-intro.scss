@@ -1,0 +1,88 @@
+.maori-intro {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column
+}
+
+.maori-intro .top-circle {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  opacity: 1;
+  //transform: matrix(1, 0, 0, 1, 0, 0);
+  //transition: transform 0.3s ease;
+}
+
+.maori-intro .top-circle .circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+.maori-intro .connecting-line {
+  height: 100px;
+  width: 2px;
+  position: relative;
+  overflow: hidden;
+}
+
+.maori-intro .target-circle {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  border: 1px dashed #fff;
+  border-radius: 50%;
+}
+
+.maori-intro .description{
+  font-family: Helvetica, sans-serif;
+  font-size: 12px;
+  margin-top: 15px;
+  text-align: center;
+  color: rgba(255,255,255,0.5);
+}
+
+.circle-small-dot,.small-dot {
+  width: 2px;
+  height: 3px;
+  background: #fff;
+  display: inline-block
+}
+
+.small-dot {
+  position: absolute;
+  left: 0;
+  top: 0
+}
+
+.circle-small-dot {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-40%);
+  transform: translate(-50%,-40%)
+}
+

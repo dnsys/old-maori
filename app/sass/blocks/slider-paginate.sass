@@ -1,0 +1,21 @@
+.slider-paginate
+  position: absolute
+  right: 10%
+  top: 50%
+  transform: translateY(-50%)
+  z-index: 10
+  &__item
+    cursor: pointer
+    padding: 5px
+    margin-right: -5px
+    width: 15px
+    height: 30px
+    opacity: 0.5
+    &:hover
+      opacity: 0.75
+    &.active
+      opacity: 1
+  &__item-inner
+    height: 100%
+    background: #fff
+    cursor: pointer
